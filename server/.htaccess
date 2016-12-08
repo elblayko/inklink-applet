@@ -1,0 +1,3 @@
+Options +Indexes
+IndexOptions FancyIndexing SuppressDescription
+IndexIgnore *.php assets

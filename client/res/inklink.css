@@ -1,0 +1,115 @@
+body {
+	font-family: "Segoe UI", sans-serif, Arial;
+	color: #000000;
+	min-width: 768px;
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+}
+#ink-container {
+	text-align: center;
+	margin: auto;
+	margin-top: 2em;
+}
+embed {
+	border: 5px outset #CCCCCC;
+}
+#settings, #settings-btm {
+	background-image: url("http://dl.dropbox.com/u/7450541/InkLink/themes/metal.jpg");
+	background-size: 500px;
+	background-position: center;
+
+	border-radius: 8px;
+	text-align: center;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+	width: 768px;
+	min-width: 768px;
+	
+	color: #000000;
+	background-color: #CCCCCC;
+	
+	padding: 1em;
+	margin: auto;
+
+	box-shadow:         3px 3px 5px 6px #333333;		
+	-moz-box-shadow:    3px 3px 5px 6px #333333;
+	-webkit-box-shadow: 3px 3px 5px 6px #333333;
+}
+#settings div {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	text-align: left;
+	padding: 8px;
+}
+#settings p, #settings-btm p {
+	margin: 0;
+}
+#players-online {
+	overflow: hidden;
+	position: relative;
+}
+#players-online p {
+	display: inline;
+	padding: 12px 8px;
+}
+#settings-btm p {
+	display: inline;
+}
+#settings-btm form {
+	display: inline-block;
+}
+#settings-btm {
+	display: none;
+}
+#settings-toggle {
+	cursor: pointer;
+}
+#links {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+#notify-show-ui {
+	text-align: center;
+	font-size: 300%;
+	color: #CCCCCC;
+	display: none;
+	position: relative;
+}
+#player-graph {
+	width: 50px;
+	display: inline;
+	overflow: hidden;
+}
+#random-quote {
+	margin: 1em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 0.8em;
+}
+#random-quote p {
+	padding: 0;
+	margin: 0;
+}
+fieldset {
+	display: inline-block;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+legend {
+	text-align: left;
+	font-size: 0.8em;
+}
